@@ -13,7 +13,7 @@ function Home() {
       (response) => {
         setList(response.data);
         
-        
+        console.log(list);
         setFiltered(response.data);
       }
     );
